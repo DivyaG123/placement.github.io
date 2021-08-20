@@ -1,0 +1,52 @@
+body,html{
+	background-image:url("contact.jpg");
+	height:100%;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+    }
+
+.contact{
+    position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:500px;
+	padding:2rem;
+	box-sizing:border-box;
+	box-shadow:0 16px 26px rgba(0,0,0,.5);
+	border-radius:12px;
+	}
+.contact h1{
+    color:rgb(247, 9, 9);
+	font-family:cursive;
+}
+.contact p{
+    color:black;
+	font-family:cursive;
+}
+input{
+	width:70%;
+	padding:0.8rem;
+	border-radius:20px;
+	border:none;
+}
+textarea{
+    width:70%;
+	padding:0.8rem;
+	border-radius:20px;
+	border:none;
+}
+button{
+	background-color:red;
+	color:white;
+	padding:0.5rem;
+	border-radius:20px;
+	border:none;
+	
+}
+	
